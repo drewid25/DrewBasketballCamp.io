@@ -1,0 +1,249 @@
+body {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+    line-height: 1.2;
+}
+
+@media screen and (max-width:375px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: .5rem;
+    }
+}
+
+
+/* header */
+.main {
+
+    background-color: #FAF5EF;
+
+}
+
+.nav-link {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.text-darkgray {
+    color: #343a40;
+}
+
+.navigation-list {
+    margin-left: 25rem;
+}
+
+.navigation-link {
+    margin-right: 2rem;
+}
+
+.cta-btn {
+    background-color: #fcc419
+}
+
+
+
+/* NavBar */
+
+.active-link {
+    border-radius: 9px;
+    padding: 0 1rem;
+}
+
+/* Programs Section */
+.card img {
+    width: 600px;
+    height: 300px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.card {
+    border-radius: 9px;
+}
+
+.btn-view {
+    border-color: #343a40;
+}
+
+.card button {
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+#learn {
+    background-color: #FAF5EF;
+}
+
+.training-skills {
+    list-style: none;
+
+}
+
+.training-skills li {
+    margin-bottom: 2rem;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #FAF5EF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.log-in-row {
+    box-shadow: 12px 12px 22px grey;
+    border-radius: 30px;
+    background-color: #FAF5EF;
+
+}
+
+.log-in-row img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #dc3545;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white
+}
+
+.btn1:hover {
+    background-color:#343a40;
+    border: 1px solid;
+    color: #fff;
+
+}
+
+
+
+
+/*navlink Underline Border  */
+.nav-about,
+.nav-contact,
+.nav-login,
+.nav-programs,
+.nav-home
+ {
+    border-bottom: 2px solid #dc3545;
+}
+/* navlink on hover */
+.navbar-brand:hover,
+.nav-link:hover,
+.nav-about:hover,
+.nav-contact:hover,
+.nav-login:hover {
+    color: #dc3545;
+}
+
+
+
+
+/* kids Program */
+.skills-training{
+    list-style: none;
+}
+.kids-program span{
+    margin-right:.5rem;
+}
+
+.calendar-span{
+    font-size: 1rem;
+    margin-right:.5rem
+}
+
+
+/* About us */
+.about-us h1{
+    font-size: 3rem;
+}
+@media only screen and (max-width:768px){
+    .about-us h1{
+    font-size: 2rem;
+}
+.about-us img{
+     width:200px;
+     height:150px;
+}
+
+}
+
+@media only screen and (max-width:375px){
+    .about-us h1{
+    font-size: 1rem;
+}
+.about-us img{
+     width:150px;
+     height:100px;
+}
+.about-us{
+    text-align: center;
+}
+}
+.about-us,.sidebar,.register,.contact-us {
+    box-shadow: 12px 12px 22px grey;
+    border-radius: 30px;
+    background-color: #FAF5EF;
+
+}
+
+.about-us img{
+    width:200px;
+    height:250px;
+}
+
+@media only screen and (max-width:375px){
+    .sidebar{
+    flex-direction: column;
+}}
+
+
+.contact-us{
+    margin:0 auto;
+    width:50rem;
+    padding:5rem;
+}
+@media only screen and (max-width:768px){
+    .contact-us{
+     width:40rem;
+     padding:3rem;
+
+}}
+@media only screen and (max-width:375px){
+    .contact-us{
+     width:15rem;
+     padding:3rem;
+    
+ 
+
+}
+.content-center{
+    text-align: center;
+}
+.contact-footer{
+    display:none;
+}}
+
